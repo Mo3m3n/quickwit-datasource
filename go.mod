@@ -1,12 +1,13 @@
 module github.com/quickwit-oss/quickwit-datasource
 
-go 1.19
+go 1.25
 
 require (
 	github.com/grafana/grafana-plugin-sdk-go v0.162.0
 	github.com/stretchr/testify v1.8.2
-	golang.org/x/exp v0.0.0-20230515195305-f3d0a9c9a5cc
 )
+
+require golang.org/x/exp v0.0.0-20230515195305-f3d0a9c9a5cc // indirect
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
@@ -78,9 +79,9 @@ require (
 	go.opentelemetry.io/otel/sdk v1.14.0 // indirect
 	go.opentelemetry.io/otel/trace v1.14.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.19.0 // indirect
-	golang.org/x/net v0.9.0 // indirect
-	golang.org/x/sys v0.7.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
+	golang.org/x/net v0.46.0 // indirect
+	golang.org/x/sys v0.37.0 // indirect
+	golang.org/x/text v0.30.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
 	google.golang.org/grpc v1.54.0 // indirect
